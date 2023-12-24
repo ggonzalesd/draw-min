@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+#canvas {
+  border: 1px solid black;
+}
+
+#body {
+  height: 100vh;
+}
+
+.tools {
+  display: flex;
+  position: absolute;
+}
+
+.modes {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 10px;
+  top: 120px;
+}
+
+.modes input[type=button] {
+  display: flex;
+  padding: 8px;
+}
